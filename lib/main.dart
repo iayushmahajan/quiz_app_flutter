@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Center(child: Text('GK QUIZ')),
+          title: const Text('GK QUIZ'),
           backgroundColor: const Color.fromARGB(255, 11, 43, 59),
         ),
         body: _questionIndex < _questions.length

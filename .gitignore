@@ -31,6 +31,9 @@
 .pub/
 /build/
 
+#vs-code related
+.vscode/settings.json
+
 # Web related
 lib/generated_plugin_registrant.dart
 
